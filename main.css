@@ -115,11 +115,11 @@ border-radius: 100px;
             margin: 0px 60px 0px 0px;
         }
 }
-@media(max-width:375px){
+@media(max-width:377px){
     .menu__logo{
         position: relative;
         top: -10px;
-        left: 160px;
+        left: 150px;
         width: 60px;
         height:60px ;
         background-color: white;
@@ -182,5 +182,28 @@ border-radius: 100px;
                     color: white;
                     text-decoration: none;
                     margin: 0px 80px 0px 0px;
+                }
+        }
+        @media(max-width:207px){
+            .menu__logo{
+                position: relative;
+                top: -10px;
+                left: 80px;
+                width: 60px;
+                height:60px ;
+                background-color: white;
+                border-radius: 100px;
+                }
+                .text{
+                    color: white;
+                    font-size: 17px;
+                }
+                .menu__text a{
+                    position: relative;
+                    font-size: 17px;
+                    left: 2%;
+                    color: white;
+                    text-decoration: none;
+                    margin: 0px 0.6px 0px 0px;
                 }
         }
