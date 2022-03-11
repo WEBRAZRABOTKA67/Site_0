@@ -11,12 +11,6 @@
     background-color: white;
     border-radius: 100px;
     }
-    .menu__text{
-        font-size: 25px;
-    }
-}
-.menu__text{
-    font-size: 25px;
 }
 
 .menu__text a{
@@ -97,29 +91,7 @@ border-radius: 100px;
         margin: 0px 270px 0px 0px;
     }
     }
-    @media(max-width:320px){
-        .menu__logo{
-            position: relative;
-            top: -10px;
-            left: 130px;
-            width: 60px;
-            height:60px ;
-            background-color: white;
-            border-radius: 100px;
-            }
-            .text{
-                color: white;
-                font-size: 20px;
-            }
-            .menu__text a{
-                position: relative;
-                font-size: 20px;
-                left: 10%;
-                color: white;
-                text-decoration: none;
-                margin: 0px 60px 0px 0px;
-            }
-            }
+   
 @media(max-width:343px){
     .menu__logo{
         position: relative;
@@ -166,3 +138,49 @@ border-radius: 100px;
             margin: 0px 60px 0px 0px;
         }
 }
+@media(max-width:320px){
+    .menu__logo{
+        position: relative;
+        top: -10px;
+        left: 130px;
+        width: 60px;
+        height:60px ;
+        background-color: white;
+        border-radius: 100px;
+        }
+        .text{
+            color: white;
+            font-size: 20px;
+        }
+        .menu__text a{
+            position: relative;
+            font-size: 20px;
+            left: 10%;
+            color: white;
+            text-decoration: none;
+            margin: 0px 60px 0px 0px;
+        }
+        }
+        @media(max-width:425px){
+            .menu__logo{
+                position: relative;
+                top: -10px;
+                left: 180px;
+                width: 60px;
+                height:60px ;
+                background-color: white;
+                border-radius: 100px;
+                }
+                .text{
+                    color: white;
+                    font-size: 20px;
+                }
+                .menu__text a{
+                    position: relative;
+                    font-size: 20px;
+                    left: 10%;
+                    color: white;
+                    text-decoration: none;
+                    margin: 0px 80px 0px 0px;
+                }
+        }
