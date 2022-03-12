@@ -5,17 +5,34 @@
     .menu__logo{
         position: relative;
         top: -70px;
-      left:300px;
+      left:320px;
     width: 80px;
     height:80px ;
-    background-color: white;
+    background:url("Img/icon.jpg") no-repeat;
+    background-size: auto 180%;
+    background-position: center;
     border-radius: 100px;
     }
+    .text a{
+        position: relative;
+        top: 20px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    .text a::before{
+        content: "«";
+    }
+    .text a::after{
+        content: "»";
+    }
+    
 }
 
 .menu__text a{
     position: relative;
-    left: 10%;
+    left: 15%;
     color: white;
     text-decoration: none;
     margin: 0px 270px 0px 0px;
@@ -36,15 +53,31 @@ body{
 
 @media(min-width:1024px){
     .menu__logo{
-        position: relative;
+    position: relative;
         top: -70px;
-        left: 450px;
+      left:500px;
     width: 80px;
     height:80px ;
-    background-color: white;
+    background:url("Img/icon.jpg") no-repeat;
+    background-size: auto 180%;
+    background-position: center;
     border-radius: 100px;
     }
+    .text a{
+        position: relative;
+        top: 20px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        
     }
+    .text a::before{
+        content: "«";
+    }
+    .text a::after{
+        content: "»";
+    }
+}
 @media(min-width:1440px){
 .menu__logo{
 position: relative;
@@ -96,7 +129,7 @@ border-radius: 100px;
         .menu__logo{
             position: relative;
             top: -10px;
-            left: 0px;
+            left: 10%;
             width: 60px;
             height:60px ;
             background-color: white;
@@ -115,6 +148,7 @@ border-radius: 100px;
                 margin: 0px 60px 0px 0px;
             }
     }
+    
 @media(max-width:377px){
     .menu__logo{
         position: relative;
@@ -136,6 +170,14 @@ border-radius: 100px;
             color: white;
             text-decoration: none;
             margin: 0px 60px 0px 0px;
+        }
+        .text a{
+            position: relative;
+            top: 20px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            
         }
 }
 @media(max-width:320px){
@@ -160,6 +202,7 @@ border-radius: 100px;
             text-decoration: none;
             margin: 0px 60px 0px 0px;
         }
+        
         }
         @media(max-width:425px){
             .menu__logo{
@@ -257,7 +300,30 @@ border-radius: 100px;
             .menu__logo{
                 position: relative;
                 top: -10px;
-                left: 150px;
+                left: 145px;
+                width: 60px;
+                height:60px ;
+                background-color: white;
+                border-radius: 100px;
+                }
+                .text{
+                    color: white;
+                    font-size: 20px;
+                }
+                .menu__text a{
+                    position: relative;
+                    font-size: 20px;
+                    left: 10%;
+                    color: white;
+                    text-decoration: none;
+                    margin: 0px 80px 0px 0px;
+                }
+        }
+        @media(max-width:360px){
+            .menu__logo{
+                position: relative;
+                top: -10px;
+                left: 145px;
                 width: 60px;
                 height:60px ;
                 background-color: white;
@@ -345,4 +411,26 @@ border-radius: 100px;
                     margin: 0px 30px 0px 0px;
                 }
         }
-     
+        @media(max-width:443px){
+            .menu__logo{
+                position: relative;
+                top: -10px;
+                left: 200px;
+                width: 60px;
+                height:60px ;
+                background-color: white;
+                border-radius: 100px;
+                }
+                .text{
+                    color: white;
+                    font-size: 20px;
+                }
+                .menu__text a{
+                    position: relative;
+                    font-size: 20px;
+                    left: 10%;
+                    color: white;
+                    text-decoration: none;
+                    margin: 0px 80px 0px 0px;
+                }
+        }
